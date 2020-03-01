@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "dev": "DEBUG=myapp:* PORT=8080 nodemon ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -13,5 +14,8 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "node-sass-middleware": "0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
