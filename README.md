@@ -4,13 +4,15 @@ A boilerplate for CRA (Create React App) in Express project.
 ## Table of Contents
 
 1. [Setup](#setup)
-  1. [Setup server](#setup-server)
-  1. [Setup client](#setup-client)
+    1. [Setup server](#setup-server)
+    1. [Setup client](#setup-client)
 1. [Build](#build)
-  1. [Build client](#build-client)
+    1. [Build client](#build-client)
 
 <a name="setup"></a>
 ## Setup
+
+This parts tells you how this **master** branch comes. And you can skip this section if you want to try by yourself.
 
 * [Guide to setup server, with express.js](https://expressjs.com/en/starter/generator.html)
 * Guide to setup client, with CRA](https://create-react-app.dev/docs/deployment)
