@@ -6,8 +6,9 @@ A boilerplate for CRA (Create React App) in Express project.
 1. [Setup](#setup)
     1. [Setup server](#setup-server)
     1. [Setup client](#setup-client)
-1. [Build](#build)
+1. [Run production](#run-production)
     1. [Build client](#build-client)
+    1. [Run server](#run-server)
 
 <a name="setup"></a>
 ## Setup
@@ -112,8 +113,8 @@ Try result:
 
 * browse http://localhost:3000, can see the CRA app by dev server on `3000`.
 
-<a name="build"></a>
-## Build
+<a name="run-production"></a>
+## Run production
 
 <a name="build-client"></a>
 ### Build client
@@ -121,6 +122,8 @@ Try result:
 ```
 $ yarn client build
 ```
+<a name="run-server"></a>
+### Run server
 
 Run server side in `production` mode to see builds of client assets
 
