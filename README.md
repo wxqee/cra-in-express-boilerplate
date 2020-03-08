@@ -18,6 +18,7 @@ This parts tells you how this **master** branch comes. And you can skip this sec
 * [Guide to setup server, with express.js](https://expressjs.com/en/starter/generator.html)
 * Guide to setup client, with CRA](https://create-react-app.dev/docs/deployment)
 
+
 <a name="setup-server"></a>
 ### Setup server
 
@@ -134,3 +135,12 @@ PORT=7000 NODE_ENV=production yarn start
 Try result:
 
 * browse http://localhost:7000, can see the express server on `7000`, uses built client assets btw.
+
+## Setup IDE
+
+<a name="setup-webstorm"></a>
+### Setup WebStorm
+
+1. `yarn install` to install **prettier**
+1. **Preference** > **Tools** > **File Watchers**
+1. click **+**, choose **prettier**, and can use default settings.
